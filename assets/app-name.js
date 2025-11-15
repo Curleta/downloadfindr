@@ -9,9 +9,9 @@ function changeAppName() {
     } else {
         i = 0;
     }
-    setTimeout("changeAppName", 5000);
 }
 
 while (true) {
     changeAppName();
+    setTimeout("changeAppName", 5000);
 }
