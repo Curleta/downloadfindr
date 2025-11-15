@@ -12,4 +12,6 @@ function changeAppName() {
     setTimeout("changeAppName", 5000);
 }
 
-changeAppName();
+while (true) {
+    changeAppName();
+}
