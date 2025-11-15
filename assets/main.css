@@ -7,3 +7,7 @@
 #title {
     font-size: 50px;
 }
+
+#highlight-app-name {
+    transition: opacity 1.5s;
+}
