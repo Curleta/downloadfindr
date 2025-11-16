@@ -22,3 +22,12 @@
 #top p {
     display: inline-block;
 }
+
+.n-link {
+    color: #e12323;
+    text-decoration: none;
+}
+
+.n-link:hover {
+    text-decoration: underline;
+}
