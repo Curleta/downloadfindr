@@ -9,5 +9,10 @@
 }
 
 #highlight-app-name {
+    opacity: 1;
     transition: opacity 1.5s;
+}
+
+#top p {
+    display: inline-block;
 }
