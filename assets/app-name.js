@@ -9,7 +9,7 @@ function wait(ms) {
 async function loop() {
     while(true) {
         appNameOutput.style.opacity = 0;
-        await wait(1500)
+        await wait(1000);
         appNameOutput.innerHTML = highlightAppName[i];
         i = (i + 1) % highlightAppName.length;
         appNameOutput.style.opacity = 1;
