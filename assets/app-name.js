@@ -3,7 +3,7 @@ var appNameOutput = document.getElementById("highlight-app-name");
 var i = 0;
 
 function wait(ms) {
-    return new Promise(res => setTimeout(res, ms))
+    return new Promise(res => setTimeout(res, ms));
 }
 
 async function loop() {
