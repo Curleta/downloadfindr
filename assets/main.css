@@ -9,6 +9,10 @@ html {
     position: relative;
 }
 
+body {
+    padding: 25px;
+}
+
 footer {
     position: absolute;
     left: 0;
