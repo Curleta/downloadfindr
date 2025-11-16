@@ -11,6 +11,12 @@
 #highlight-app-name {
     opacity: 1;
     transition: opacity 1.5s;
+    background: linear-gradient(90deg, #e12345, #9c11e1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+
 }
 
 #top p {
