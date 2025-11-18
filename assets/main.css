@@ -9,30 +9,53 @@ html {
     position: relative;
 }
 
+/* Footer styles */
+
 footer {
     position: absolute;
     left: 0;
     bottom: 0;
-    height: 100px;
     width: 100%;
     overflow: hidden;
-    padding: 25px 0;
+    padding: 0;
     background-color: #000;
+    color: #fff;
 }
 
-footer a {
+footer a:not(.link-icon) {
     padding: 25px;
 }
 
 footer a.link-icon {
     bottom: 0;
+    overflow: hidden;
 }
 
 footer a.link-icon img {
     width: 25px;
     height: 25px;
-    padding: 5px;
+    padding: 10px;
+    transition: ease 0.1s;
 }
+
+footer a.link-icon img:hover {
+    width: 27px;
+    height: 27px;
+}
+
+#footer-logo {
+    font-size: 50px;
+    padding: 10px;
+    font-weight: 700;
+    margin: 40px 0 0;
+}
+
+footer p {
+    padding: 10px;
+    margin: 0;
+}
+
+/* Other styles */
 
 #title {
     font-size: 50px;
