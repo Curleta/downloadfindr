@@ -1,4 +1,4 @@
-var highlightAppName = [ "Valorant", "Clash Royale", "Discord" ];
+var highlightAppName = [ "Valorant", "Clash Royale", "Discord", "Microsoft Flight Simulator 2024", "Visual Studio Code" ];
 var appNameOutput = document.getElementById("highlight-app-name");
 var i = 0;
 
