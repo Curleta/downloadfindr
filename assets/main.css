@@ -76,11 +76,16 @@ footer p {
     display: inline-block;
 }
 
-.n-link {
-    color: #e12323;
-    text-decoration: none;
+.gr-description {
+    background: linear-gradient(180deg, #e12345, #e17c23);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    padding: 0;
+    font-size: 20px;
 }
 
-.n-link:hover {
-    text-decoration: underline;
+.no-margin {
+    margin: 0;
 }
